@@ -71,6 +71,7 @@ mix.styles(
         "resources/theme/css/rateit.css",
         "resources/theme/css/pooja.css",
         "resources/theme/css/style.css",
+        "resources/theme/css/plastic.css",
         "resources/theme/css/responsive.css"
     ],
     "public/css/wed.css"

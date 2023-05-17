@@ -9,7 +9,10 @@ $types = getDataArray('types');
 @endphp
 
 <!-- Banner search -->
-@include('frontend.includes.banner-search')
+@include('frontend.includes.banner-search') 
+
+<!-- Banner search -->
+@include('frontend.includes.procedures') 
 
 <!-- Home content list -->
 @include('frontend.includes.home-content')

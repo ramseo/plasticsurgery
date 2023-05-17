@@ -1,0 +1,62 @@
+.header-bg {
+    background: #F88379;
+}
+
+.header-bg .book-button {
+    background: #f3413a;
+    border-radius: 8px;
+}
+
+.mail-address {
+    font-weight: 600;
+}
+
+.header-bg .book-button a {
+    color: #fff;
+    font-weight: 600;
+}
+
+.site-logo {
+    width: 235px;
+}
+
+.dropdown-menu {
+    background-color: #990e0e!important;
+}
+
+.dropdown-menu a {
+    color: #fff;
+    border-bottom: 1px solid white;
+    border-width: thin;
+}
+
+.dropdown-menu a:hover {
+    color: #fff;
+    background-color: #0073a8;
+}
+
+.trans h2 {
+    font-size: 31px;
+    color: #1f193a;
+    font-weight: bold;
+    line-height: 42px;
+}
+
+.trans p {
+    font-size: 16px;
+    line-height: 25px;
+    color: #000;
+}
+
+.h1 {
+    margin: 0 0 0px;
+    font-family: 'Questrial', sans-serif;
+    font-weight: 400;
+    color: #444;
+    line-height: 1em;
+    font-weight: 600;
+}
+
+.h-bold {
+    font-weight: 600;
+}
