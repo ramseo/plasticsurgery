@@ -3,11 +3,9 @@
       <div class="row" style="margin:0px;">
          <div class="col-md-12">
             <div class="section-heading text-center">
-               <h1 class="h-bold">Find Your Cosmetic Surgery Procedure ghhg</h1>
+               <h1 class="h-bold">Find Your Cosmetic Surgery Procedure</h1>
             </div>
-            <div class="divider-short">
-               <div></div>
-            </div>
+            <hr>
          </div>
       </div>
       <div class="row remove-exterspace">
@@ -84,6 +82,6 @@
             </div>
          </div>
       </div>
-      <div class="row text-center surgen-view-all"><a href="https://plasticsurgery.in/procedures" class="btn btn-primary btn_sdse">View all Cosmetic Surgery Procedures</a></div>
+      <div class="row justify-content-center surgen-view-all py-4"><a href="https://plasticsurgery.in/procedures" class="btn btn_sdse">View all Cosmetic Surgery Procedures</a></div>
    </div>
 </section>

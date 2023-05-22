@@ -44,15 +44,15 @@
             <div class="col-lg-6">
                 <div class="specification">
                     <p class="title1">
-                        Are you a Top 5-Star Cosmetic Surgeon?
+                    Are you a Top 5-Star Plastic Surgeon?
                     </p>
                     <h3 class="star">
-                        Get popular among countless patients with your profile listing:
+                    Let us list you as the ‘ONLY’ recommended Plastic Surgeon in your city.
                     </h3>
                     <ul>
-                        <li>Attract and engage new patients</li>
-                        <li>Boost your online credibility and reputation</li>
-                        <li>Acquire patients beyond expectation</li>
+                        <li>Connect easily with thousands of patients from your city and worldwide searching for a Plastic Surgeon.</li>
+                        <li>We only list ONE Top Plastic Surgeon in the city. So, your online credibility will increase manifold.</li>
+                        <li>Educate people by writing informative blogs/articles on the topics that your patients love.</li>
                     </ul>
                     <button type="button" class="btn btn-secondary btn-lg butt-mob1">
                         <a href="<?= asset('join-as-plastic-surgeon') ?>" style="color:#fff; text-decoration:none; font-size:15px; font-weight:500;">
@@ -64,14 +64,15 @@
             <div class="col-lg-6">
                 <div class="specification">
                     <p class="title1">
-                        Patients are becoming impatient when they can’t find proper cosmetic surgeon, treatment and clinics.
+                    We understand how unsettling it can be for patients when searching for the right plastic and cosmetic surgery treatments.
                     </p>
                     <h3 class="star">
-                        Let us join together and guide patients toward the best decision.
+                    Our website enables the needful patients connect with the best plastic surgeon around in just a few clicks.<br><br>
+                    <b>Join us now to help patients make the right choice</b>
                     </h3>
-                    <button type="button" class="btn btn-secondary btn-lg  butt-mob1" style="margin-top: 20px;">
+                    <button type="button" class="btn btn-secondary btn-lg  butt-mob1" style="margin-top: 45px;">
                         <a href="<?= url('join-as-plastic-surgeon') ?>" style="color:#fff; text-decoration:none; font-size:15px; font-weight:500;">
-                            JOIN AS A COSMETIC SURGEON
+                            JOIN AS A PLASTIC SURGEON
                         </a>
                     </button>
                 </div>
@@ -80,28 +81,3 @@
     </div>
 </div>
 
-<!-- <section id="about-us">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-xs-12 col-sm-3 img-col" data-aos="slide-right">
-                <img src="images/about.jpg" alt="" class="img-fluid">
-            </div>
-            <div class="col-xs-12 col-sm-9 text-col" data-aos="slide-left">
-                <div class="col-xs-12 common-heading">
-                    <p class="shadow-text">About Us</p>
-                    <p class="head">About Us</p>
-                </div>
-                <div class="mt-2">
-                    @if(setting('about_us'))
-                    {!! setting('about_us') !!}
-                    @endif
-                </div>
-                @if(setting('about_link'))
-                <div class="mt-4">
-                    <a href="{{setting('about_link')}}" class="btn btn-primary">READ MORE</a>
-                </div>
-                @endif
-            </div>
-        </div>
-    </div>
-</section> -->

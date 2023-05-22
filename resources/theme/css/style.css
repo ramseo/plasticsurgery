@@ -57,19 +57,21 @@ form-control * {
 }
 
 .sr-heading {
-    background-image: linear-gradient(36deg, #f7c5a8, #e95110);
+    background-image: linear-gradient( 36deg, #36d1dc, #5b86e5);
     color: #ffff;
     font-size: 25px;
     padding: 14px 24px;
     border-radius: 2px;
     text-align: center;
     margin-bottom: 16px;
-    height: 200px;
+    height: 150px;
 }
 
 .sr-heading .form-control {
     color: #333;
     font-weight: 600;
+    font-size: 18px;
+    height: 50px;
 }
 
 .gender-contact {
@@ -238,7 +240,7 @@ form-control * {
     margin-top: 18px;
     margin-bottom: 17px;
     font-size: 23px;
-    color: #333;
+    color: #fff;
     font-weight: 600;
 }
 
@@ -1027,7 +1029,6 @@ ul.nav.nav-tabs {
 }
 
 .img-responsive {
-    height: 233px;
     object-fit: cover;
     cursor: pointer;
 }
@@ -1162,12 +1163,13 @@ ul.nav.nav-tabs {
 }
 
 .cities h3 {
-    background-color: #1daa9f;
+    background-color: #f1f1f1;
     font-size: 17px;
-    padding: 25px 39px;
+    padding: 15px 15px;
     margin-bottom: 20px;
-    box-shadow: 0px 2px 3px 2px;
-    height: 69px;
+    height: 50px;
+    color: #00234b;
+    font-weight: 700;
 }
 
 .special-anchor:hover {
@@ -1177,12 +1179,13 @@ ul.nav.nav-tabs {
     transition: 0.3s all;
 }
 
-.cities:hover {
+
+/* .cities:hover {
     box-shadow: -3px 4px 5px #333;
     border: none;
     outline: none;
     transition: 0.3s all;
-}
+} */
 
 .special-anchor a:hover {
     color: #fff;
@@ -1220,12 +1223,12 @@ ul.nav.nav-tabs {
 }
 
 .specification {
-    padding: 39px;
+    padding: 20px 20px;
     background-color: #fff;
-    margin-top: 29px;
-    height: 305px;
+    margin-top: 70px;
+    height: 350px;
     margin-bottom: 33px;
-    box-shadow: 5px 3px 0px 3px #f7c5a8, -5px -3px 0px 3px #f7c5a8;
+    box-shadow: 5px 3px 0px 3px #4a0101, -5px -3px 0px 3px #600b0b;
     border-radius: 10px;
 }
 
@@ -1302,10 +1305,8 @@ footer ul li a:hover {
 
 footer img {
     width: 100%;
-    height: 49px;
+    height: 63px;
     object-fit: cover;
-    background-color: #fff;
-    padding: 3px;
 }
 
 .cit h1 {
@@ -1439,7 +1440,7 @@ footer img {
 }
 
 .title1 {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 600;
 }
 
@@ -2018,6 +2019,7 @@ footer img {
     .cities h3 {
         height: auto;
         padding: 12px 26px;
+        text-transform: uppercase;
     }
 }
 
@@ -3057,4 +3059,8 @@ img {
 
 .new-doctor .col-lg-3.col-md-6 {
     margin: 30px 0 0 0;
+}
+
+.new-doctor {
+    padding-top: 80px;
 }

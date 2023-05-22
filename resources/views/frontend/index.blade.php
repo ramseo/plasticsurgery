@@ -14,6 +14,8 @@ $types = getDataArray('types');
 <!-- Banner search -->
 @include('frontend.includes.procedures') 
 
+@include('frontend.includes.makes-us-different') 
+
 <!-- Home content list -->
 @include('frontend.includes.home-content')
 

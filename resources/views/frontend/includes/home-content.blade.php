@@ -1,4 +1,4 @@
-<div class="container-fluid" style="background-color:#f8f8f8">
+<!-- <div class="container-fluid" style="background-color:#f8f8f8">
     <div class="container">
         <h1 class="title">Welcome to CosmeticSurgery.in</h1>
         <div class="row">
@@ -29,4 +29,4 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->

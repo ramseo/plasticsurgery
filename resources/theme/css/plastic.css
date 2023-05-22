@@ -1,62 +1,211 @@
-.header-bg {
-    background: #F88379;
-}
-
-.header-bg .book-button {
-    background: #f3413a;
-    border-radius: 8px;
-}
-
-.mail-address {
-    font-weight: 600;
-}
-
-.header-bg .book-button a {
-    color: #fff;
-    font-weight: 600;
-}
-
-.site-logo {
-    width: 235px;
-}
-
-.dropdown-menu {
-    background-color: #990e0e!important;
-}
-
-.dropdown-menu a {
-    color: #fff;
-    border-bottom: 1px solid white;
-    border-width: thin;
-}
-
-.dropdown-menu a:hover {
-    color: #fff;
-    background-color: #0073a8;
-}
-
-.trans h2 {
-    font-size: 31px;
-    color: #1f193a;
-    font-weight: bold;
-    line-height: 42px;
-}
-
-.trans p {
-    font-size: 16px;
-    line-height: 25px;
-    color: #000;
-}
-
-.h1 {
-    margin: 0 0 0px;
-    font-family: 'Questrial', sans-serif;
-    font-weight: 400;
-    color: #444;
-    line-height: 1em;
-    font-weight: 600;
-}
-
-.h-bold {
-    font-weight: 600;
-}
+            .header-bg {
+                background: #F88379;
+            }
+            
+            .header-bg .book-button {
+                background: #f3413a;
+                border-radius: 8px;
+            }
+            
+            .mail-address {
+                font-weight: 600;
+            }
+            
+            .header-bg .book-button a {
+                color: #fff;
+                font-weight: 600;
+            }
+            
+            .site-logo {
+                width: 235px;
+            }
+            
+            .dropdown-menu {
+                background-color: #990e0e!important;
+            }
+            
+            .dropdown-menu a {
+                color: #fff;
+                border-bottom: 1px solid white;
+                border-width: thin;
+            }
+            
+            .dropdown-menu a:hover {
+                color: #fff;
+                background-color: #0073a8;
+            }
+            
+            .trans h2 {
+                font-size: 31px;
+                color: #1f193a;
+                font-weight: bold;
+                line-height: 42px;
+            }
+            
+            .trans p {
+                font-size: 16px;
+                line-height: 25px;
+                color: #000;
+            }
+            
+            h1,
+            h2,
+            h3 {
+                margin: 0 0 0px;
+                font-family: 'Questrial', sans-serif;
+                font-weight: 400;
+                color: #444;
+                line-height: 1em;
+                font-weight: 600;
+            }
+            
+            .section-heading {
+                padding: 80px 0 0px;
+            }
+            
+            .h-bold {
+                font-size: 36px;
+                font-weight: 600;
+            }
+            
+            hr {
+                margin-top: 0px !important;
+                width: 60px;
+                background: #aaa;
+            }
+            
+            .surgen-view-all .btn_sdse {
+                color: #fff;
+                font-size: 21px;
+                font-weight: 600;
+                border-radius: 4px;
+                background: #428bca;
+                border-color: #357ebd;
+            }
+            
+            .surgen-gal img {
+                border: solid 1px #dc555e;
+                float: left;
+                width: 100%;
+                height: 185px
+            }
+            
+            .surgen-gal a {
+                border: solid 1px #dc555e;
+                float: left;
+                width: 100%;
+                background: #ec606a;
+                font-size: 20px;
+                color: #fff;
+                text-align: center;
+                line-height: 30px;
+                padding-top: 0px;
+                padding-bottom: 15px;
+                -webkit-transition: background 2s;
+                transition: background 2s;
+            }
+            
+            .surgenin-padding-remove {
+                padding: 5px 5px !important;
+            }
+            
+            .whatmakes {
+                padding-left: 90px!important;
+            }
+            
+            .whatmakes2 {
+                position: absolute;
+                left: 0px;
+                top: 0px;
+            }
+            
+            .whatmakes h2 {
+                font-size: 23px;
+                color: #ec606a;
+                padding-bottom: 12px;
+            }
+            
+            .fueparatext p,
+            li {
+                text-align: left;
+            }
+            
+            .why_main_bg {
+                background: #f1f1;
+                position: relative;
+            }
+            
+            .why_h {
+                padding-top: 20px;
+            }
+            
+            .version_dskyp_hide {
+                display: none;
+            }
+            
+            .flat {
+                float: none;
+                margin: 0 auto;
+            }
+            
+            .rat {
+                display: none;
+            }
+            
+            .why_h ul {
+                float: left;
+                width: 100%;
+                list-style: disc;
+                padding: 10px 0 0 30px;
+                margin: 0px;
+            }
+            
+            .flat ul li {
+                float: left;
+                width: 100%;
+                position: relative;
+                z-index: 999;
+                margin-top: 10px;
+                list-style: none;
+            }
+            
+            .flat ul li .hexagon {
+                width: 50px;
+                height: 50px;
+                background: #fff;
+                position: absolute;
+                border: solid 2px #F88379;
+                border-radius: 40px;
+                text-align: center;
+                line-height: 50px;
+                font-size: 29px;
+                color: #f3413a;
+                float: none;
+                left: 0px;
+            }
+            
+            .flat ul li label {
+                float: left;
+                width: 100%;
+                background: #F88379;
+                padding: 8px;
+                margin-left: 37px;
+                margin-top: 7px;
+                padding-left: 50px;
+                color: #fff;
+                border-radius: 11px;
+            }
+            
+            .footer-bg {
+                background-color: #c35248;
+                border-top: 1px dashed #fff;
+            }
+            
+            .footer-bg h2 {
+                color: #fff;
+            }
+            
+            .footer-bg-2 {
+                background-color: #F88379;
+                border-top: 1px dashed #fff;
+            }

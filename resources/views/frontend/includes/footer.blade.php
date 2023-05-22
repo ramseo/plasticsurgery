@@ -1,4 +1,4 @@
-<div class="container-fluid" style="background-color:#1a508b">
+<div class="container-fluid footer-bg" >
    <footer>
       <div class="container">
          <div class="row">
@@ -61,21 +61,21 @@
                <ul>
                   <li>
                      <a href="#">
-                        <img src="<?= asset('img/logo-cosmeticsurgery.png') ?>">
+                        <img src="<?= asset('images/plastic-surgery-new-one.png') ?>">
                      </a>
                   </li>
                   <br>
                   <li>
                      <a href="mailto:info@cosmeticsurgery.in">
                         <i class="icon_mail_alt"></i>
-                        info@cosmeticsurgery.in
+                        info@plasticsurgery.in
                      </a>
                   </li>
                </ul>
                <div class="links">
                   <h4 style="text-align:center">Follow US</h4>
                   <ul class="company-social" style="text-align:center; padding:0;">
-                     <li><a target="_blank" href="https://www.facebook.com/CosmeticSurgery.in"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                     <li><a target="_blank" href="https://www.facebook.com/plasticsurgery.in"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
                      <li><a target="_blank" href="https://twitter.com/CosmeticSurgIN"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
                      <li><a target="_blank" href="https://www.linkedin.com/company/cosmeticsurgeryindia/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
                      <li><a target="_blank" href="https://www.instagram.com/cosmeticsurgery.in"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
@@ -90,7 +90,7 @@
    </footer>
 </div>
 
-<div class="container-fluid" style="background-color: #1a508b; border-top:1px dashed #fff">
+<div class="container-fluid footer-bg-2">
    <div class="small-footer">
       <div class="container">
          <div class="row">
@@ -120,7 +120,7 @@
    </div>
 </div>
 
-<div class="container-fluid" style="background-color:#1a508b; border-top:1px dashed #fff">
+<div class="container-fluid footer-bg">
    <div class="small-footer">
       <div class="floatt-left">
          Copyright © <?= date('Y') ?> - CosmeticSurgery.in - All rights reserved

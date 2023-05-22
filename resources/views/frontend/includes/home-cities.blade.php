@@ -1,6 +1,7 @@
 <div class="container-fluid location" style="background-color: #f8f8f8">
     <div class="container">
-        <p class="title text-center">Find a Surgeon by City</p>
+        <h3 class="title text-center h-bold pt-5 pb-3">Find a Surgeon by City</h3>
+        <hr>
         <div class="row">
             <?php
             $citiesArr = citiesArr();
