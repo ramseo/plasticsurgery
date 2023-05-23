@@ -59,7 +59,7 @@ $city = getData('cities');
     <nav class="navbar navbar-expand-lg nv">
         <div class="container">
             <a class="navbar-brand" href="<?= url('/') ?>">
-                <img class="site-logo" src="<?= asset('images/plastic-surgery-new-one.png') ?>" alt="logo">
+                <img class="site-logo" src="<?= asset('images/ps-logo.png') ?>" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon">

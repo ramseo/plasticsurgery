@@ -135,8 +135,9 @@
                 position: relative;
             }
             
-            .why_h {
-                padding-top: 20px;
+            .col-md-12.pst_p {
+                position: absolute;
+                top: 149px;
             }
             
             .version_dskyp_hide {
@@ -148,15 +149,11 @@
                 margin: 0 auto;
             }
             
-            .rat {
-                display: none;
-            }
-            
-            .why_h ul {
+            .flat ul {
                 float: left;
                 width: 100%;
-                list-style: disc;
-                padding: 10px 0 0 30px;
+                list-style: none;
+                padding: 0px;
                 margin: 0px;
             }
             
@@ -166,7 +163,6 @@
                 position: relative;
                 z-index: 999;
                 margin-top: 10px;
-                list-style: none;
             }
             
             .flat ul li .hexagon {
@@ -191,9 +187,48 @@
                 padding: 8px;
                 margin-left: 37px;
                 margin-top: 7px;
-                padding-left: 50px;
+                padding-left: 35px;
                 color: #fff;
+                font-weight: 500;
                 border-radius: 11px;
+            }
+            
+            .why_h {
+                padding-top: 20px;
+            }
+            
+            .why_h h2 {
+                float: left;
+                width: 100%;
+                font-size: 35px;
+                color: #444;
+                padding-bottom: 20px;
+            }
+            
+            .why_h p {
+                font-size: 18px;
+                line-height: 29px;
+            }
+            
+            .why_h ul {
+                float: left;
+                width: 100%;
+                list-style: disc;
+                padding: 10px 0 0 30px;
+                margin: 0px;
+            }
+            
+            .why_h ul li {
+                font-weight: bold;
+            }
+            
+            .rat {
+                display: none;
+            }
+            
+            .flat {
+                float: none;
+                margin: 0 auto;
             }
             
             .footer-bg {
@@ -203,9 +238,85 @@
             
             .footer-bg h2 {
                 color: #fff;
+                font-size: 20px;
+                text-transform: uppercase;
+                margin-bottom: 0px;
             }
             
             .footer-bg-2 {
                 background-color: #F88379;
                 border-top: 1px dashed #fff;
+            }
+            
+            .blg-ctg-cntnt {
+                width: 94%;
+                background-color: #fff;
+                border: 1px solid #ccc;
+                padding: 23px 22px 15px 22px;
+                margin: 0 auto !important;
+                position: relative;
+                top: -20px;
+                border-radius: 10px;
+                min-height: 250px;
+                z-index: 1;
+            }
+            
+            .blg-ctg-box h2 a {
+                color: #1f2d3d;
+                font-size: 24px;
+                text-decoration: none !important;
+                display: inline-block;
+                overflow: hidden;
+            }
+            
+            .blg-ctg-box {
+                float: left;
+            }
+            
+            .blg-ctg-box .blg-cat-btm {
+                position: relative;
+                padding-left: 55px;
+                float: left;
+                width: 100%;
+            }
+            
+            .blg-ctg-img {
+                width: 100%;
+                clear: left;
+                height: 191px;
+                overflow: hidden;
+                border-radius: 10px;
+            }
+            
+            .blg-cat-btm a {
+                color: #666;
+                text-decoration: none !important;
+                background-color: transparent;
+            }
+            
+            .author-avtr {
+                position: absolute;
+                left: 0;
+                width: 40px;
+                height: 40px;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                border-radius: 50%;
+                overflow: hidden;
+                border: 1px solid #cecdcc;
+            }
+            
+            .author-avtr img {
+                border-radius: 50px;
+            }
+            
+            .blg-ctg-img img {
+                height: 191px;
+                border-radius: 15px;
+            }
+            
+            .img-responsive {
+                display: block;
+                max-width: 100%;
+                height: auto;
             }

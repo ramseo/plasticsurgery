@@ -71,7 +71,7 @@
 
 <!-- /Section: boxes -->
 <!-- /Section: boxes -->
-<section id="boxes" class="home-section paddingtop-80">
+<section id="boxes" class="home-section paddingtop-80 pb-5">
    <div class="container">
       <div class="row why_main_bg">
          <div class="col-md-12 pst_p">

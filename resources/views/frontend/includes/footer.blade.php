@@ -123,7 +123,7 @@
 <div class="container-fluid footer-bg">
    <div class="small-footer">
       <div class="floatt-left">
-         Copyright © <?= date('Y') ?> - CosmeticSurgery.in - All rights reserved
+         Copyright © <?= date('Y') ?> - PlasticSurgery.in - All rights reserved
       </div>
       <div class="floatt-right">
          <a href="<?= url('disclaimer') ?>">Disclaimer |</a>

@@ -23,9 +23,11 @@ $types = getDataArray('types');
 @include('frontend.includes.category-list')
 
 <!-- About block -->
-@include('frontend.includes.about-block') 
+@include('frontend.includes.about-block')
 
 <!-- Home cities -->
 @include('frontend.includes.home-cities')
+
+@include('frontend.includes.inc-blog')
 
 @endsection
