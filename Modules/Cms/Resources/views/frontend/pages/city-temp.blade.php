@@ -12,15 +12,15 @@
 <div class="header-space"></div>
 <div class="cit">
     <div class="container top-head-padd-null">
-        <p>{{$$module_name_singular->name}}</p>
+        <p>{{$$module_name_singular->name}}</p> 
     </div>
 </div>
 
-<div class="container-fluid">
+<div class="container-fluid"> 
     <div class="container">
         <div class="row">
             <p class="identity width-100">
-                top cosmetic surgeons in <?= $city ?>
+                top Plastic surgeons in <?= $city ?>
             </p>
             <div class="col-lg-12 doc-flex-cls padd-null">
                 <?php
@@ -30,7 +30,7 @@
                         $reviews = getDataArray('vendor_reviews', 'user_id', $item->id);
                         $average = averageReview($reviews);
                 ?>
-                        <div class="col-lg-4">
+                        <!-- <div class="col-lg-4">
                             <div class="col-12 doc-flex-cls doctor-box-shadow">
                                 <div class="col-lg-4 padd-null">
                                     <div class="doc-img-div">
@@ -97,12 +97,90 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
+
+             
                 <?php
                     }
                 }
                 ?>
+
+                <!-- ----------dr-profiles---------- -->
+
+                <div class="container">
+        <div class="aon-med-team-section">
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="aon-med-team bg-light-gray">
+                        <div class="aon-med-team-pic">
+                        <img src="<?php echo asset('images/pic1.jpg')  ?>" alt="#">
+                        </div>
+                        <div class="aon-med-team-info">
+                            <h4 class="aon-title"><a href="profile1.html">Dr. Marya Smith</a></h4>
+                            <p class="aon-med-team-discription">MDS, MCH</p>
+                            <span class="aon-med-team-position">Plastic Surgeon</span>
+                            <span class="aon-med-team-location"><i class="fa fa-map-marker"></i>Lucknow, India</span>
+                            <div class="aon-df-rating">
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star">(124)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="aon-med-team bg-light-gray">
+                        <div class="aon-med-team-pic">
+                            <img src="<?php echo asset('images/pic1.jpg')   ?>" alt="#">
+                        </div>
+                        <div class="aon-med-team-info">
+                            <h4 class="aon-title"><a href="profile1.html">Dr. Darren Elder</a></h4>
+                            <p class="aon-med-team-discription">MDS, MCH</p>
+                            <span class="aon-med-team-position">Plastic Surgeon</span>
+                            <span class="aon-med-team-location"><i class="fa fa-map-marker"></i>Lucknow, India</span>
+                            <div class="aon-df-rating">
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star">(124)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4">
+                    <div class="aon-med-team bg-light-gray">
+                        <div class="aon-med-team-pic">
+                        <img src="<?php echo asset('images/pic1.jpg')   ?>" alt="#">
+                        </div>
+                        <div class="aon-med-team-info">
+                            <h4 class="aon-title"><a href="profile1.html">Dr. Darren Elder</a></h4>
+                            <p class="aon-med-team-discription">MDS, MCH</p>
+                            <span class="aon-med-team-position">Plastic Surgeon</span>
+                            <span class="aon-med-team-location"><i class="fa fa-map-marker"></i>Lucknow, India</span>
+                            <div class="aon-df-rating">
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star">(124)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+            <div class="aon-addmore-btn-section pb-4">
+                        <a href="javascripr:;" class="aon-addplus"><i class="fa fa-plus"></i></a>
+                    </div>
+
+                    <!-- ---------------------------- -->
             <div class="row">
                 <div class="col">
                     <p>

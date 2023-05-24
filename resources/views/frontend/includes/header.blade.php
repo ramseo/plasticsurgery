@@ -90,7 +90,7 @@ $city = getData('cities');
                                             <a class="dropdown-item" href="<?= url("/") . "/clinics" ?>">
                                                 View All Clinics
                                             </a>
-                                        <?php } ?>
+                                        <?php } ?>s
                                     </div>
                                 <?php } ?>
                             </li>

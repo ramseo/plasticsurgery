@@ -105,7 +105,7 @@
 
 <body>
 
-    @include('frontend.includes.header')
+    @include('frontend.includes.header') 
 
     <x-preloader />
 

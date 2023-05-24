@@ -16,7 +16,7 @@
     </div>
 </div>
 
-<!-- Doctors Listing -->
+<!-- Doctors Listing --> 
 <?php
 $getAssignedDoctors = getAssignedDoctors($city);
 if ($getAssignedDoctors->isNotEmpty()) {
