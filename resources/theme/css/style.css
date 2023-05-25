@@ -1076,6 +1076,7 @@ ul.nav.nav-tabs {
 .tab-pane ul {
     list-style: circle !important;
     color: #333;
+    line-height: 35px;
 }
 
 .frm select {
