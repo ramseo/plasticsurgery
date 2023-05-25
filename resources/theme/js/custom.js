@@ -1,4 +1,4 @@
-$(document).on('click', '.displayPassword', function () {
+$(document).on('click', '.displayPassword', function() {
     var inputType = $(this).parents('.password-container').find('input').attr('type');
     if (inputType == 'password') {
         $(this).parents('.password-container').find('input').attr('type', 'text');
@@ -10,19 +10,19 @@ $(document).on('click', '.displayPassword', function () {
 });
 
 
-$(document).on('click', '.album-cls', function () {
+$(document).on('click', '.album-cls', function() {
     $('html,body').animate({
         scrollTop: $(".new-div").offset().top - 100
     }, 'slow');
 });
 
-$(document).on('click', '.price-arrow-down', function () {
+$(document).on('click', '.price-arrow-down', function() {
     $('html,body').animate({
         scrollTop: $(".pricing-col").offset().top - 100
     }, 'slow');
 });
 
-$(document).on('click', '.rating-scroll-event', function () {
+$(document).on('click', '.rating-scroll-event', function() {
     $('html,body').animate({
         scrollTop: $(".detail-review-header").offset().top - 140
     }, 'slow');
@@ -40,18 +40,18 @@ function copyLinkText(GfGInput) {
 
     // change text
     $("#text-copy-btn").html("Copied!");
-    setTimeout(function () {
+    setTimeout(function() {
         $("#shareModal").modal("hide");
         $("#text-copy-btn").html("Copy Link");
     }, 1000)
 }
 
-$(document).on('click', '.show-more-reviews', function () {
+$(document).on('click', '.show-more-reviews', function() {
     $('.detail-review-body .single-review').css("display", 'block');
     $('.show-more-reviews').hide();
 });
 
-$(document).ready(function () {
+$(document).ready(function() {
     var totalReviews = $('.detail-review-body .single-review').length;
     if (totalReviews > 3) {
         $('.show-more-reviews').show();
@@ -69,7 +69,7 @@ var showChar = 250;
 var ellipsestext = "...";
 var moretext = "Read More";
 var lesstext = "Read Less";
-$('.more-content-cls').each(function () {
+$('.more-content-cls').each(function() {
     var content = $(this).html();
 
     if (content.length > showChar) {
@@ -84,7 +84,7 @@ $('.more-content-cls').each(function () {
 
 });
 
-$(document).on('click', '.morelink', function () {
+$(document).on('click', '.morelink', function() {
     if ($(this).hasClass("less")) {
         $(this).removeClass("less");
         $(this).html(moretext);
@@ -101,7 +101,7 @@ $(document).on('click', '.morelink', function () {
 
 var timeout;
 
-$(window).scroll(function () {
+$(window).scroll(function() {
     if (typeof timeout == "number") {
         window.clearTimeout(timeout);
         delete timeout;
@@ -130,7 +130,7 @@ function button_scroll() {
     }
 }
 
-$(document).on('click', '#filter-validation', function (event) {
+$(document).on('click', '#filter-validation', function(event) {
     var typeFilter = $('#typeFilter').find(":selected").val();
     var cityFilter = $('#cityFilter').find(":selected").val();
 
@@ -146,11 +146,11 @@ $(document).on('click', '#filter-validation', function (event) {
 
 });
 
-$(document).on("click", "#eliminate-val-error", function () {
+$(document).on("click", "#eliminate-val-error", function() {
     $('.reviewAlert').hide();
 });
 
-$(document).on("click", '.show_reply_popup', function () {
+$(document).on("click", '.show_reply_popup', function() {
     var review_id = $(this).attr("review_id");
     $("#update_review_id").val(review_id);
 
@@ -158,7 +158,7 @@ $(document).on("click", '.show_reply_popup', function () {
 })
 
 
-$(document).on('click', '.del-link', function (e) {
+$(document).on('click', '.del-link', function(e) {
     var answer = confirm('Are you sure?');
     if (answer) {
         // Proceed
@@ -176,7 +176,7 @@ function eliminate_active_cls(id) {
 }
 
 
-$('.accordion-toggle').on('click', function (event) {
+$('.accordion-toggle').on('click', function(event) {
     event.preventDefault();
     // create accordion variables
     var accordion = $(this);

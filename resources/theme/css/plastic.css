@@ -1,4 +1,4 @@
-    .header-bg {
+        .header-bg {
             background: #F88379;
         }
         
@@ -644,4 +644,20 @@
         .aon-addmore-btn-section .aon-addplus:hover:after {
             width: 50px;
         }
-    }
+        
+        .list-style-tab {
+            list-style: circle;
+        }
+        
+        .accordion-container i {
+            border: 1px solid #f3413a;
+            padding: 5px;
+            border-radius: 20px;
+        }
+        
+        .accordion-container i:hover {
+            padding: 5px;
+            border-radius: 20px;
+            color: #f3413a;
+            background: #ffff;
+        }

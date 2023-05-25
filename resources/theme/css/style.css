@@ -911,6 +911,8 @@ p {
 
 ul.nav.nav-tabs {
     padding: 0px 0px !important;
+    border-radius: 45px;
+    border: 1px solid #F88379 !important;
 }
 
 .nav-tabs>li {
@@ -960,15 +962,18 @@ ul.nav.nav-tabs {
 }
 
 .mtab a.nav-link.ancr.active {
-    background-color: #000 !important;
+    background-color: #e95110 !important;
+    color: #ffffff !important;
 }
 
 .mtab .nav-link.ancr {
-    background-color: #e95110;
-    color: #fff;
-    padding: 13px 45px;
+    background-color: #ffff;
+    color: #000000;
+    padding: 13px 50px;
     margin: 1px;
     font-size: 19px;
+    border-radius: 48px;
+    border: none;
 }
 
 .card:hover {
@@ -1046,7 +1051,11 @@ ul.nav.nav-tabs {
 .ico .fa {
     font-size: 52px;
     margin-bottom: 13px;
-    color: #1877f2;
+    color: #f3413a;
+}
+
+.ico a {
+    color: #f3413a;
 }
 
 .ico:hover {
@@ -1056,7 +1065,7 @@ ul.nav.nav-tabs {
 
 .ico {
     text-align: center;
-    box-shadow: 0px 0px 3px;
+    box-shadow: 0px 0px 3px #ff8361;
     padding: 30px;
     margin-bottom: 25px;
     border-radius: 3px;
@@ -1065,7 +1074,7 @@ ul.nav.nav-tabs {
 }
 
 .tab-pane ul {
-    list-style: disc !important;
+    list-style: circle !important;
     color: #333;
 }
 
@@ -1101,10 +1110,9 @@ ul.nav.nav-tabs {
 .nav-tabs>li.active>a:focus {
     color: #555;
     cursor: default;
-    background-color: #000 !important;
-    border: 1px solid #ddd;
-    border-bottom-color: transparent;
-    color: #fff;
+    background-color: #ffffff !important;
+    /* border: 1px solid #ddd; */
+    color: #000000;
 }
 
 .bald ul li img {
@@ -3016,18 +3024,20 @@ img {
     padding: 6px 10px 6px 10px;
     font-size: 18px;
     font-weight: 600;
-    background: #999;
-    color: #fff;
+    background: #ffffff;
+    color: #f3413a;
     text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border: 1px solid #f3413a;
+    border-radius: 4px;
 }
 
 .accordion-toggle.open,
 .accordion-toggle:hover {
-    background: #999;
-    color: #fff;
+    background: #f3413a;
+    color: #ffffff;
     text-decoration: none;
 }
 

@@ -177,8 +177,9 @@
             </div>
 
             <div class="aon-addmore-btn-section pb-4">
-                        <a href="javascripr:;" class="aon-addplus"><i class="fa fa-plus"></i></a>
+                        <a href="javascripr:;" class="aon-addplus"><i class="fa fa-star-o"></i></a>
                     </div>
+
 
                     <!-- ---------------------------- -->
             <div class="row">
@@ -460,28 +461,28 @@
     </div>
 </div>
 
-<div class="container-fluid mtab pt-4 pb-4" style="background-color:#f8f8f8">
+<div class="container-fluid mtab pt-4 pb-4" style="background-color:#ffff">
     <div class="container">
         <p class="identity m-auto text-center" style="width:fit-content">
             Find Your Procedure
         </p>
-        <ul class="nav nav-tabs" role="tablist">
-            <li class="nav-item active">
+        <ul class="nav nav-tabs my-4" role="tablist">
+            <li class="nav-item active my-1 mx-1 ">
                 <a class="nav-link active ancr" data-toggle="tab" href="#home" aria-expanded="true">
                     Face Procedures
                 </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item my-1 mx-1 ">
                 <a class="nav-link ancr" data-toggle="tab" href="#menu1" aria-expanded="false">
                     Breast Procedures
                 </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item my-1 mx-1 ">
                 <a class="nav-link ancr" data-toggle="tab" href="#menu2" aria-expanded="false">
                     Body Procedures
                 </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item my-1 mx-1">
                 <a class="nav-link ancr" data-toggle="tab" href="#menu3" aria-expanded="false">
                     Male Specific Procedures
                 </a>
@@ -847,7 +848,7 @@
     </div>
 </div>
 
-<div class="spacer">
+<div class="spacer w-100">
     <div class="container-fluid">
         <div class="container">
             <div class="row">
@@ -857,8 +858,8 @@
                             <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
                             <h6>For any query related to treatment email us</h6>
                             <h6>
-                                <a href="mailto:info@cosmeticsurgery.in">
-                                    info@cosmeticsurgery.in
+                                <a href="mailto:info@plasticsurgery.in">
+                                    info@plasticsurgery.in
                                 </a>
                             </h6>
                         </div>
