@@ -1,53 +1,53 @@
         .header-bg {
             background: #F88379;
         }
-        
+
         .header-bg .book-button {
             background: #f3413a;
             border-radius: 8px;
         }
-        
+
         .mail-address {
             font-weight: 600;
         }
-        
+
         .header-bg .book-button a {
             color: #fff;
             font-weight: 600;
         }
-        
+
         .site-logo {
             width: 235px;
         }
-        
+
         .dropdown-menu {
-            background-color: #990e0e!important;
+            background-color: #990e0e !important;
         }
-        
+
         .dropdown-menu a {
             color: #fff;
             border-bottom: 1px solid white;
             border-width: thin;
         }
-        
+
         .dropdown-menu a:hover {
             color: #fff;
             background-color: #0073a8;
         }
-        
+
         .trans h2 {
             font-size: 31px;
             color: #1f193a;
             font-weight: bold;
             line-height: 42px;
         }
-        
+
         .trans p {
             font-size: 16px;
             line-height: 25px;
             color: #000;
         }
-        
+
         h1,
         h2,
         h3 {
@@ -58,22 +58,22 @@
             line-height: 1em;
             font-weight: 600;
         }
-        
+
         .section-heading {
             padding: 80px 0 0px;
         }
-        
+
         .h-bold {
             font-size: 36px;
             font-weight: 600;
         }
-        
+
         hr {
             margin-top: 0px !important;
             width: 60px;
             background: #aaa;
         }
-        
+
         .surgen-view-all .btn_sdse {
             color: #fff;
             font-size: 21px;
@@ -82,14 +82,14 @@
             background: #428bca;
             border-color: #357ebd;
         }
-        
+
         .surgen-gal img {
             border: solid 1px #dc555e;
             float: left;
             width: 100%;
             height: 185px
         }
-        
+
         .surgen-gal a {
             border: solid 1px #dc555e;
             float: left;
@@ -104,51 +104,51 @@
             -webkit-transition: background 2s;
             transition: background 2s;
         }
-        
+
         .surgenin-padding-remove {
             padding: 5px 5px !important;
         }
-        
+
         .whatmakes {
-            padding-left: 90px!important;
+            padding-left: 90px !important;
         }
-        
+
         .whatmakes2 {
             position: absolute;
             left: 0px;
             top: 0px;
         }
-        
+
         .whatmakes h2 {
             font-size: 23px;
             color: #ec606a;
             padding-bottom: 12px;
         }
-        
+
         .fueparatext p,
         li {
             text-align: left;
         }
-        
+
         .why_main_bg {
             background: #f1f1;
             position: relative;
         }
-        
+
         .col-md-12.pst_p {
             position: absolute;
             top: 149px;
         }
-        
+
         .version_dskyp_hide {
             display: none;
         }
-        
+
         .flat {
             float: none;
             margin: 0 auto;
         }
-        
+
         .flat ul {
             float: left;
             width: 100%;
@@ -156,7 +156,7 @@
             padding: 0px;
             margin: 0px;
         }
-        
+
         .flat ul li {
             float: left;
             width: 100%;
@@ -164,7 +164,7 @@
             z-index: 999;
             margin-top: 10px;
         }
-        
+
         .flat ul li .hexagon {
             width: 50px;
             height: 50px;
@@ -179,7 +179,7 @@
             float: none;
             left: 0px;
         }
-        
+
         .flat ul li label {
             float: left;
             width: 100%;
@@ -192,11 +192,11 @@
             font-weight: 500;
             border-radius: 11px;
         }
-        
+
         .why_h {
             padding-top: 20px;
         }
-        
+
         .why_h h2 {
             float: left;
             width: 100%;
@@ -204,12 +204,12 @@
             color: #444;
             padding-bottom: 20px;
         }
-        
+
         .why_h p {
             font-size: 18px;
             line-height: 29px;
         }
-        
+
         .why_h ul {
             float: left;
             width: 100%;
@@ -217,37 +217,37 @@
             padding: 10px 0 0 30px;
             margin: 0px;
         }
-        
+
         .why_h ul li {
             font-weight: bold;
         }
-        
+
         .rat {
             display: none;
         }
-        
+
         .flat {
             float: none;
             margin: 0 auto;
         }
-        
+
         .footer-bg {
             background-color: #c35248;
             border-top: 1px dashed #fff;
         }
-        
+
         .footer-bg h2 {
             color: #fff;
             font-size: 20px;
             text-transform: uppercase;
             margin-bottom: 0px;
         }
-        
+
         .footer-bg-2 {
             background-color: #F88379;
             border-top: 1px dashed #fff;
         }
-        
+
         .blg-ctg-cntnt {
             width: 94%;
             background-color: #fff;
@@ -260,7 +260,7 @@
             min-height: 250px;
             z-index: 1;
         }
-        
+
         .blg-ctg-box h2 a {
             color: #1f2d3d;
             font-size: 24px;
@@ -268,18 +268,18 @@
             display: inline-block;
             overflow: hidden;
         }
-        
+
         .blg-ctg-box {
             float: left;
         }
-        
+
         .blg-ctg-box .blg-cat-btm {
             position: relative;
             padding-left: 55px;
             float: left;
             width: 100%;
         }
-        
+
         .blg-ctg-img {
             width: 100%;
             clear: left;
@@ -287,13 +287,13 @@
             overflow: hidden;
             border-radius: 10px;
         }
-        
+
         .blg-cat-btm a {
             color: #666;
             text-decoration: none !important;
             background-color: transparent;
         }
-        
+
         .author-avtr {
             position: absolute;
             left: 0;
@@ -305,58 +305,58 @@
             overflow: hidden;
             border: 1px solid #cecdcc;
         }
-        
+
         .author-avtr img {
             border-radius: 50px;
         }
-        
+
         .blg-ctg-img img {
             height: 191px;
             border-radius: 15px;
         }
-        
+
         .img-responsive {
             display: block;
             max-width: 100%;
             height: auto;
         }
-        
+
         .aon-med-team-section a {
             color: #000;
             outline: 0px none;
             text-decoration: none;
         }
-        
+
         .aon-med-team-section a:hover,
         .aon-med-team-section a:focus {
             outline: 0px none;
             text-decoration: none;
         }
-        
+
         .aon-med-team-section a:active,
         .aon-med-team-section a:hover,
         .aon-med-team-section a:focus {
             color: inherit;
         }
-        
+
         .overflow-hide {
             overflow: hidden;
         }
-        
+
         .aon-med-team-section img {
             border-style: none;
             height: auto;
             max-width: 100%;
             vertical-align: middle;
         }
-        
+
         .aon-df-rating span {
             display: inline-block;
             padding-right: 2px;
             color: #c35248;
-            font-size: 16px;
+            font-size: 15px;
         }
-        
+
         .aon-team-wrap {
             padding: 30px;
             background: #fff;
@@ -367,7 +367,7 @@
             margin-bottom: 30px;
             position: relative;
         }
-        
+
         .aon-team-wrap .aon-team-pic {
             width: 150px;
             height: 150px;
@@ -375,13 +375,13 @@
             margin: 0px auto 30px;
             position: relative;
         }
-        
+
         .aon-team-wrap .aon-team-pic img {
             width: 100%;
             height: 100%;
             border-radius: 100%;
         }
-        
+
         .aon-team-wrap .aon-team-pic:after {
             content: "";
             width: 170px;
@@ -397,20 +397,21 @@
             border-right: 2px solid transparent;
             opacity: 0;
         }
-        
+
         .aon-team-wrap .aon-team-pic:after {
             animation: rotate 1.5s infinite linear;
         }
-        
+
         @keyframes rotate {
             from {
                 transform: rotate(0);
             }
+
             to {
                 transform: rotate(60deg);
             }
         }
-        
+
         .aon-med-team {
             background-color: #fff;
             margin-bottom: 30px;
@@ -424,34 +425,36 @@
             -o-transition: all 0.5s ease;
             transition: all 0.5s ease;
         }
-        
-        .aon-med-team .aon-med-team-pic {
+
+        /* .aon-med-team .aon-med-team-pic {
             width: 110px;
             margin-right: 20px;
             position: relative;
-        }
-        
+        } */
+
         .aon-med-team .aon-med-team-discription {
             margin-bottom: 5px;
+            font-size: 15px;
         }
-        
+
         .aon-med-team .aon-med-team-position {
             display: block;
             color: #c35248;
-            font-size: 16px;
+            font-size: 15px;
             margin-bottom: 5px;
         }
-        
+
         .aon-med-team .aon-med-team-location {
             margin-bottom: 5px;
             display: block;
+            font-size: 15px;
         }
-        
+
         .aon-med-team .aon-med-team-location i {
             margin-right: 5px;
             color: #000;
         }
-        
+
         .aon-med-team:hover .aon-med-team-pic {
             border-radius: 100%;
             -webkit-transition: all 0.5s ease;
@@ -460,7 +463,7 @@
             -o-transition: all 0.5s ease;
             transition: all 0.5s ease;
         }
-        
+
         .aon-med-team:hover .aon-med-team-pic img {
             border-radius: 100%;
             -webkit-transition: all 0.3s ease;
@@ -469,7 +472,7 @@
             -o-transition: all 0.3s ease;
             transition: all 0.3s ease;
         }
-        
+
         .aon-med-team .aon-med-team-pic:after {
             opacity: 0;
             content: '';
@@ -491,20 +494,20 @@
             -o-transition: all 0.5s ease;
             transition: all 0.5s ease;
         }
-        
+
         .aon-med-team:hover .aon-med-team-pic:after {
             opacity: 1;
         }
-        
+
         .aon-med-team:hover .aon-med-team-pic:after {
             animation: rotate 1.5s infinite linear;
         }
-        
+
         .aon-med-team:hover {
             box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.1);
             border: 1px solid transparent;
         }
-        
+
         @media only screen and (max-width:1200px) {
             .aon-med-team .aon-med-team-pic:after {
                 left: -2px;
@@ -512,45 +515,49 @@
                 height: 60%;
             }
         }
-        
+
         @media only screen and (max-width:1080px) {
             .aon-med-team .aon-med-team-pic:after {
                 height: 30%;
             }
         }
-        
+
         @media only screen and (max-width:991px) {
             .aon-med-team {
                 display: block;
                 padding: 20px;
             }
+
             .aon-med-team .aon-med-team-pic {
                 width: 131px;
                 margin-right: 0px;
                 margin-bottom: 30px;
             }
+
             .aon-med-team .aon-med-team-pic:after {
                 width: 102%;
                 height: 102%;
             }
         }
-        
+
         @media only screen and (max-width:767px) {
             .aon-med-team {
                 display: flex;
                 padding: 20px;
             }
+
             .aon-med-team .aon-med-team-pic {
                 width: 131px;
                 margin-right: 20px;
                 margin-bottom: 30px;
             }
+
             .aon-med-team .aon-med-team-pic:after {
                 width: 102%;
                 height: 102%;
             }
         }
-        
+
         @media only screen and (max-width:575px) {
             .aon-med-team .aon-med-team-pic {
                 width: 160px;
@@ -558,17 +565,19 @@
                 margin-bottom: 30px;
             }
         }
-        
+
         @media only screen and (max-width:480px) {
             .aon-med-team {
                 display: block;
                 padding: 20px;
                 text-align: center;
             }
+
             .aon-med-team .aon-med-team-pic {
                 width: 160px;
                 margin: 0px auto 30px;
             }
+
             .aon-med-team .aon-med-team-pic:after {
                 left: -2px;
                 top: -2px;
@@ -576,11 +585,11 @@
                 height: 165px;
             }
         }
-        
+
         .aon-addmore-btn-section {
             text-align: center;
         }
-        
+
         .aon-addmore-btn-section .aon-addplus {
             border: 1px solid #c35248;
             border-radius: 6px;
@@ -590,14 +599,14 @@
             display: inline-block;
             position: relative;
         }
-        
+
         .aon-addmore-btn-section .aon-addplus i {
             color: #c35248;
             font-size: 20px;
             line-height: 40px;
             display: inline-block;
         }
-        
+
         .aon-addmore-btn-section .aon-addplus:before,
         .aon-addmore-btn-section .aon-addplus:after {
             content: '';
@@ -613,17 +622,17 @@
             -o-transition: all 0.5s ease;
             transition: all 0.5s ease;
         }
-        
+
         .aon-addmore-btn-section .aon-addplus:before {
             right: 100%;
             margin-right: 10px;
         }
-        
+
         .aon-addmore-btn-section .aon-addplus:after {
             left: 100%;
             margin-left: 10px;
         }
-        
+
         .aon-addmore-btn-section .aon-addplus:hover i {
             -moz-transform: rotate(360deg);
             -webkit-transform: rotate(360deg);
@@ -636,32 +645,54 @@
             -o-transition: all 0.5s ease;
             transition: all 0.5s ease;
         }
-        
+
         .aon-addmore-btn-section .aon-addplus:hover:before {
             width: 50px;
         }
-        
+
         .aon-addmore-btn-section .aon-addplus:hover:after {
             width: 50px;
         }
-        
+
         .list-style-tab {
             list-style: circle;
         }
-        
+
         .accordion-container i {
             border: 1px solid #f3413a;
             padding: 5px;
             border-radius: 20px;
         }
-        
+
         .accordion-container i:hover {
             padding: 5px;
             border-radius: 20px;
             color: #f3413a;
             background: #ffff;
         }
-        
+
         .accordion-toggle.open i {
             border: 1px solid #ffff;
+        }
+
+
+        .aon-med-team-pic img {
+            width: 110px;
+            height: 110px;
+        }
+
+        .aon-title a,
+        .aon-title a:hover {
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+        .aon-med-team-info {
+            margin-left: 15px;
+        }
+
+        .aon-med-team-location a,
+        .aon-med-team-location a:hover {
+            color: inherit;
+            text-decoration: none;
         }

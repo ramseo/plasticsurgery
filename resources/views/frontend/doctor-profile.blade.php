@@ -377,8 +377,8 @@
                             <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
                             <h6>For any query related to treatment email us</h6>
                             <h6>
-                                <a href="mailto:info@cosmeticsurgery.in">
-                                    info@cosmeticsurgery.in
+                                <a href="mailto:<?= Setting('email') ?>">
+                                    <?= Setting('email') ?>
                                 </a>
                             </h6>
                         </div>
