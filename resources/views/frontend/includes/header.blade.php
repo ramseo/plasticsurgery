@@ -42,16 +42,10 @@ $city = getData('cities');
             </ul>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link text-white mail-address" href="mailto:info@cosmeticsurgery.in"><i class="fa fa-envelope" aria-hidden="true"></i>
-                        info@plasticsurgery.in |
+                    <a class="nav-link text-white mail-address" href="mailto:<?= Setting('email') ?>">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <?= Setting('email') ?>
                     </a>
-                </li>
-                <li class="nav-item">
-                    <button type="button" class="btn mt-1 kl btn-sm book-button">
-                        <a href="<?= url('book-an-appointment') ?>">
-                            Book an Appointment
-                        </a>
-                    </button>
                 </li>
             </ul>
         </div>
@@ -59,7 +53,7 @@ $city = getData('cities');
     <nav class="navbar navbar-expand-lg nv">
         <div class="container">
             <a class="navbar-brand" href="<?= url('/') ?>">
-                <img class="site-logo" src="<?= asset('images/ps-logo.png') ?>" alt="logo">
+                <img class="site-logo" src="<?= asset('images/plastic-surgery-new-logo.png') ?>" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon">
@@ -68,7 +62,7 @@ $city = getData('cities');
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    
+
                     <?php
                     $header_menu = dynamic_menu('menutype', 'url', 'header');
                     if ($header_menu) {
@@ -90,7 +84,7 @@ $city = getData('cities');
                                             <a class="dropdown-item" href="<?= url("/") . "/clinics" ?>">
                                                 View All Clinics
                                             </a>
-                                        <?php } ?>s
+                                            <?php } ?>s
                                     </div>
                                 <?php } ?>
                             </li>
@@ -98,7 +92,7 @@ $city = getData('cities');
                         }
                     }
                     ?>
-                
+
                     @auth
                     @if(auth()->user()->getRoleNames()->first() == 'super admin')
                     <li class="nav-item">
