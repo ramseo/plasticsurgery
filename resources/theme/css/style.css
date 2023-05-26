@@ -396,6 +396,10 @@ form-control * {
     margin-left: 7px;
 }
 
+.soc li:last-child a:after {
+    width: 0;
+}
+
 .dc-p {
     width: 67%;
     float: right;
@@ -2544,7 +2548,7 @@ footer img {
 }
 
 .cs-bg-color {
-    background:#F88379;
+    background: #F88379;
 }
 
 .height-100vh {
