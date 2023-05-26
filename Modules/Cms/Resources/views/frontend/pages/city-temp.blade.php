@@ -81,18 +81,17 @@
                             </div>
                         </div>
                     </div>
-            <?php
-                }
-            }
-            ?>
+                <?php } ?>
 
-            <div class="col-sm-12">
-                <div class="aon-addmore-btn-section pb-4">
-                    <a href="javascript:void(0)" class="aon-addplus">
-                        <i class="fa fa-star-o"></i>
-                    </a>
+                <div class="col-sm-12">
+                    <div class="aon-addmore-btn-section pb-4">
+                        <a href="javascript:void(0)" class="aon-addplus">
+                            <i class="fa fa-star-o"></i>
+                        </a>
+                    </div>
                 </div>
-            </div>
+
+            <?php } ?>
 
             <div class="row">
                 <div class="col">
