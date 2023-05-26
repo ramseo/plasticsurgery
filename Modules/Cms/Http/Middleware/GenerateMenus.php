@@ -19,7 +19,7 @@ class GenerateMenus
         \Menu::make('admin_sidebar', function ($menu) {
 
             // Cms Dropdown
-            $cms_menu = $menu->add('<i class="c-sidebar-nav-icon fas fa-grav"></i> Cms', [
+            $cms_menu = $menu->add('<i class="c-sidebar-nav-icon fab fa-grav"></i> Cms', [
                 'class' => 'c-sidebar-nav-dropdown',
             ])
             ->data([
