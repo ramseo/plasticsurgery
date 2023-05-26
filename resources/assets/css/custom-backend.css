@@ -1,28 +1,28 @@
 .btn-primary {
-    background-color: #eb0a3e;
-    border-color: #eb0a3e;
+    background-color: #F88379;
+    border-color: #F88379;
 }
 
 .page-item.active .page-link {
-    background: #eb0a3e;
-    border-color: #eb0a3e;
+    background: #F88379;
+    border-color: #F88379;
 }
 
 .badge-primary {
-    background-color: #eb0a3e;
+    background-color: #F88379;
 }
 
 a {
-    color: #eb0a3e;
+    color: #F88379;
 }
 
 .text-primary {
-    color: #eb0a3e !important;
+    color: #F88379 !important;
 }
 
 .c-sidebar .c-sidebar-nav-link:hover,
 .c-sidebar .c-sidebar-nav-dropdown-toggle:hover {
-    background: #eb0a3e;
+    background: #F88379;
 }
 
 /* code */
@@ -68,7 +68,7 @@ a {
 }
 
 #sidebar ul li .c-active.c-show {
-    background: #eb0a3e;
+    background: #F88379;
 }
 
 .parent-menu-cls {
@@ -79,7 +79,7 @@ a {
 
 .parent-menu-red-cls {
     font-weight: bolder;
-    color: #eb0a3e;
+    color: #F88379;
     padding-left: 20px;
 }
 

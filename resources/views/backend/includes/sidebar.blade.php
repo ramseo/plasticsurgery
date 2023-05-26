@@ -5,7 +5,7 @@
     @if($role == 'super admin')
     <div class="c-sidebar-brand">
         <a href="<?= route("backend.dashboard") ?>">
-            <img class="c-sidebar-brand-full" src="<?= asset("img/logo-cosmeticsurgery.png") ?>" height="40" alt="{{ app_name() }}">
+            <img class="c-sidebar-brand-full" src="<?= asset('images/plastic-surgery-footer-logo.png') ?>" height="40" alt="{{ app_name() }}">
         </a>
     </div>
     {!! $admin_sidebar->asUl( ['class' => 'c-sidebar-nav'], ['class' => 'c-sidebar-nav-dropdown-items'] ) !!}
@@ -13,7 +13,7 @@
     @if($role == 'vendor')
     <div class="c-sidebar-brand">
         <a href="<?= route("vendor.dashboard") ?>">
-            <img class="c-sidebar-brand-full" src="<?= asset("img/logo-cosmeticsurgery.png") ?>" height="40" alt="{{ app_name() }}">
+            <img class="c-sidebar-brand-full" src="<?= asset('images/plastic-surgery-footer-logo.png') ?>" height="40" alt="{{ app_name() }}">
         </a>
     </div>
     {!! $vedor_sidebar->asUl( ['class' => 'c-sidebar-nav'], ['class' => 'c-sidebar-nav-dropdown-items'] ) !!}

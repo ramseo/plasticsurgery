@@ -4,7 +4,7 @@
 
 @section('content')
 
-<div class="col-xs-12 col-md-10 auth-inner-form-col">
+<div class="col-xs-12 col-md-10 auth-inner-form-col margin-login">
     <div class="form-header">
         <a class="page-back-link" href="/"><img class="img-fluid" src="{{asset('images/back-arrow.png')}}" alt=""></a>
         <p class="header-title">@lang('Reset Password')</p>

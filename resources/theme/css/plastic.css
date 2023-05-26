@@ -99,8 +99,8 @@
             color: #fff;
             text-align: center;
             line-height: 30px;
-            padding-top: 0px;
-            padding-bottom: 15px;
+            padding-top: 0;
+            padding-bottom: 0;
             -webkit-transition: background 2s;
             transition: background 2s;
         }

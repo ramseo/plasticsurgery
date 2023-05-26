@@ -17,22 +17,12 @@
                     @lang(":module_name Management Dashboard", ['module_name'=>Str::title($module_name)])
                 </div>
             </div>
-            <div class="col-2">
-                <div class="float-right">
-                    <a href="<?= route("backend.$module_name.createcities") ?>">
-                        <button class="btn btn-success generate-cities-cls">
-                            generate city pages
-                        </button>
-                    </a>
-                </div>
-            </div>
-            <div class="col-2">
+            <div class="col-4">
                 <div class="float-right">
                     <x-buttons.create route='{{ route("backend.$module_name.create") }}' title="{{__('Create')}} {{ ucwords(Str::singular($module_name)) }}" />
                 </div>
             </div>
         </div>
-        <!--/.row-->
 
         <div class="row mt-4">
             <div class="col">

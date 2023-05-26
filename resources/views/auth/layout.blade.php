@@ -33,41 +33,12 @@
 
 <body class="auth-body">
 
-    <!-- <nav id="navbar-main" class="navbar navbar-horizontal navbar-transparent navbar-main navbar-expand-lg navbar-light">
-        <div class="container">
-            <a class="navbar-brand" href="/">
-                <img src="{{asset('img/logo.png')}}" height="30">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-collapse navbar-custom-collapse collapse" id="navbar-collapse">
-                @guest
-                    <ul class="navbar-nav align-items-lg-center ml-lg-auto">
-                        <li class="nav-item">
-                            <a href="{{ route('login') }}" class="nav-link">
-                                <span class="nav-link-inner--text">Login</span>
-                            </a>
-                        </li>
-                    @if (Route::has('register'))
-                        <li class="nav-item">
-                            <a href="{{ route('register') }}" class="nav-link">
-                                <span class="nav-link-inner--text">Register</span>
-                            </a>
-                        </li>
-                    @endif
-                </ul>
-                @endguest
-            </div>
-        </div>
-    </nav> -->
-
     <section id="auth-section">
         <div class="container-fluid">
             <div class="row height-100vh">
                 <div class="col-md-6 cs-bg-color">
                     <a href="<?= url('/') ?>">
-                        <img class="auth-logo" src="{{asset('img/logo-cosmeticsurgery.png')}}" alt="logo">
+                        <img class="auth-logo" src="<?= asset('images/plastic-surgery-footer-logo.png') ?>" alt="logo">
                     </a>
                 </div>
                 <div class="col-md-6 auth-form-col position-relative">

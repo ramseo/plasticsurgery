@@ -34,19 +34,19 @@
                     <p>Find the Top Surgeons in India by Procedure</p>
                     <select class="form-control cutome_sele_bg" onchange="(this.options[this.selectedIndex].value? window.open(this.options[this.selectedIndex].value,'_blank'):'')">
                         <option selected="selected" value="">Select a Procedure</option>
-                        <option value="<?= url('hair-transplant-surgeons') ?>">Hair Transplant</option>
-                        <option value="<?= url('gynecomastia-surgeons') ?>">Gynecomastia</option>
-                        <option value="<?= url('liposuction-surgeons') ?>">Liposuction</option>
-                        <option value="<?= url('rhinoplasty-surgeons') ?>">Rhinoplasty</option>
-                        <option value="<?= url('blepharoplasty-surgeons') ?>">Blepharoplasty</option>
-                        <option value="<?= url('tummy-tuck-surgeons') ?>">Tummy Tuck</option>
-                        <option value="<?= url('breast-surgery-surgeons') ?>">Breast Surgery</option>
-                        <option value="<?= url('buccal-fat-removal-surgeons') ?>">Buccal Fat Removal</option>
-                        <option value="<?= url('lip-augmentation-surgeons') ?>">Lip Augmentation</option>
-                        <option value="<?= url('ear-surgery-surgeons') ?>">Ear Surgery</option>
-                        <option value="<?= url('body-lift-surgeons') ?>">Body Lift</option>
-                        <option value="<?= url('mommy-makeover-surgeons') ?>">Mommy Makeover</option>
-                        <option value="<?= url('hymenoplasty-surgeons') ?>">Hymenoplasty</option>
+                        <option value="<?= url('hair-transplant') ?>">Hair Transplant</option>
+                        <option value="<?= url('gynecomastia') ?>">Gynecomastia</option>
+                        <option value="<?= url('liposuction') ?>">Liposuction</option>
+                        <option value="<?= url('rhinoplasty') ?>">Rhinoplasty</option>
+                        <option value="<?= url('blepharoplasty') ?>">Blepharoplasty</option>
+                        <option value="<?= url('tummy-tuck') ?>">Tummy Tuck</option>
+                        <option value="<?= url('breast-surgery') ?>">Breast Surgery</option>
+                        <option value="<?= url('buccal-fat-removal') ?>">Buccal Fat Removal</option>
+                        <option value="<?= url('lip-augmentation') ?>">Lip Augmentation</option>
+                        <option value="<?= url('ear-surgery') ?>">Ear Surgery</option>
+                        <option value="<?= url('body-lift') ?>">Body Lift</option>
+                        <option value="<?= url('mommy-makeover') ?>">Mommy Makeover</option>
+                        <option value="<?= url('hymenoplasty') ?>">Hymenoplasty</option>
                     </select>
                 </div>
             </div>
@@ -55,19 +55,19 @@
                     <p>Find the Cost of a Procedure</p>
                     <select class="form-control fm-cont cutome_sele_bg" onchange="(this.options[this.selectedIndex].value? window.open(this.options[this.selectedIndex].value,'_blank'):'')">
                         <option selected="selected" value="">Select a Procedure</option>
-                        <option value="<?= url('hair-transplant-cost') ?>">Hair Transplant</option>
-                        <option value="<?= url('gynecomastia-cost') ?>">Gynecomastia</option>
-                        <option value="<?= url('liposuction-cost') ?>">Liposuction</option>
-                        <option value="<?= url('rhinoplasty-cost') ?>">Rhinoplasty</option>
-                        <option value="<?= url('blepharoplasty-cost') ?>">Blepharoplasty</option>
-                        <option value="<?= url('tummy-tuck-cost') ?>">Tummy Tuck</option>
-                        <option value="<?= url('breast-surgery-cost') ?>">Breast Surgery</option>
-                        <option value="<?= url('buccal-fat-removal-cost') ?>">Buccal Fat Removal</option>
-                        <option value="<?= url('lip-augmentation-cost') ?>">Lip Augmentation</option>
-                        <option value="<?= url('ear-surgery-cost') ?>">Ear Surgery</option>
-                        <option value="<?= url('body-lift-cost') ?>">Body Lift</option>
-                        <option value="<?= url('mommy-makeover-cost') ?>">Mommy Makeover</option>
-                        <option value="<?= url('hymenoplasty-cost') ?>">Hymenoplasty</option>
+                        <option value="<?= url('hair-transplant') ?>">Hair Transplant</option>
+                        <option value="<?= url('gynecomastia') ?>">Gynecomastia</option>
+                        <option value="<?= url('liposuction') ?>">Liposuction</option>
+                        <option value="<?= url('rhinoplasty') ?>">Rhinoplasty</option>
+                        <option value="<?= url('blepharoplasty') ?>">Blepharoplasty</option>
+                        <option value="<?= url('tummy-tuck') ?>">Tummy Tuck</option>
+                        <option value="<?= url('breast-surgery') ?>">Breast Surgery</option>
+                        <option value="<?= url('buccal-fat-removal') ?>">Buccal Fat Removal</option>
+                        <option value="<?= url('lip-augmentation') ?>">Lip Augmentation</option>
+                        <option value="<?= url('ear-surgery') ?>">Ear Surgery</option>
+                        <option value="<?= url('body-lift') ?>">Body Lift</option>
+                        <option value="<?= url('mommy-makeover') ?>">Mommy Makeover</option>
+                        <option value="<?= url('hymenoplasty') ?>">Hymenoplasty</option>
                     </select>
                 </div>
             </div>

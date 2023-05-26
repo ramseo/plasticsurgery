@@ -1,4 +1,4 @@
-<div class="container-fluid footer-bg" >
+<div class="container-fluid footer-bg">
    <footer>
       <div class="container">
          <div class="row">
@@ -60,15 +60,15 @@
                <h2>Contact</h2>
                <ul>
                   <li>
-                     <a href="#">
-                        <img src="<?= asset('images/plastic-surgery-new-one.png') ?>">
+                     <a href="<?= url("/") ?>">
+                        <img src="<?= asset('images/plastic-surgery-footer-logo.png') ?>">
                      </a>
                   </li>
                   <br>
                   <li>
-                     <a href="mailto:info@cosmeticsurgery.in">
+                     <a href="mailto:<?= Setting('email') ?>">
                         <i class="icon_mail_alt"></i>
-                        info@plasticsurgery.in
+                        <?= Setting('email') ?>
                      </a>
                   </li>
                </ul>
@@ -123,7 +123,7 @@
 <div class="container-fluid footer-bg">
    <div class="small-footer">
       <div class="floatt-left">
-         Copyright © <?= date('Y') ?> - PlasticSurgery.in - All rights reserved
+         Copyright © <?= date('Y') ?> - <?= $_SERVER['SERVER_NAME'] ?> - All rights reserved
       </div>
       <div class="floatt-right">
          <a href="<?= url('disclaimer') ?>">Disclaimer |</a>

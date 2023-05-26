@@ -3295,15 +3295,15 @@ fieldset:disabled a.btn {
 
 .btn-warning {
     color: #ffffff;
-    background-color: #eb0a3e;
-    border-color: #eb0a3e;
+    background-color: #F88379;
+    border-color: #F88379;
     box-shadow: 0 0.125rem 0.25rem rgba(13, 20, 49, 0.07);
 }
 
 .btn-warning:hover {
     color: #ffffff;
-    background-color: #eb0a3e;
-    border-color: #eb0a3e;
+    background-color: #F88379;
+    border-color: #F88379;
 }
 
 .btn-warning:focus,
@@ -7185,7 +7185,7 @@ input[type="button"].btn-block {
 }
 
 .breadcrumb li:first-child a {
-    color: #eb0a3e !important;
+    color: #F88379 !important;
 }
 
 .breadcrumb-item+.breadcrumb-item {

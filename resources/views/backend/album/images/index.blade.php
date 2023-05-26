@@ -78,7 +78,7 @@
     }
 
     .gallery-action-col {
-        background: #eb0a3e;
+        background: #F88379;
     }
 
     .gallery-action-col a {
